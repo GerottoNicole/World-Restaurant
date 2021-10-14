@@ -8,8 +8,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 
-    <title>World Restaurant</title>
-
+    <title>Ristorante francese</title>
     <style>    
       body{
         font-size: 25px;
@@ -17,9 +16,8 @@
         color:white;}
        
         h1{
-         font-family: 'Scheherazade New', cursive;
          font-size: 50px;
-         color: rgb(202, 202, 202);
+         color: black;
         }
     </style>
 
@@ -29,17 +27,17 @@
 <div class="container-fluid">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">World Restaurant</a>
+      <a class="navbar-brand" href="home.html">World Restaurant</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+            <a class="nav-link" href="home.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="francese.html">Francese</a>
+            <a class="nav-link active" aria-current="page" href="francese.html">Francese</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="indiano.html">Indiano</a>
@@ -59,73 +57,46 @@
 </div>
 
   <!-- slider di foto -->
-<div class="container-fluid">
-  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="images/copertina-1.jpg" class="d-block w-100" alt="Foto di un bellissimo luna park">
+        <img src="images/francese2.jpg" class="d-block w-100" alt="100">
       </div>
       <div class="carousel-item">
-        <img src="images/copertina-2.jpg" class="d-block w-100" alt="Foto di ragazza che mangia zucchero filato">
+        <img src="images/francese1.jpg" class="d-block w-100" alt="100">
       </div>
       <div class="carousel-item">
-        <img src="images/copertina-3.jpg" class="d-block w-100" alt="Vedat sul Tagadà">
+        <img src="images/francese3.jpg" class="d-block w-100" alt="100">
       </div>
     </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
-</div>
 
   <!--testo di benvenuto-->
   <div class="container">
-    <h1>World Restaurant</h1>
+    <h1>Ristornate Francese</h1>
     <p>Viaggia</p>
 </div>
 
-  <!--card con le attrazioni principali-->
-<div class="container">
+  <!--card piatti-->
+  <div class="container">
     <div class="row">
       <div class="col">
         <div class="card" style="width: 18rem;">
-          <img src="images/giostra-1.jpg" class="card-img-top" alt="...">
+          <img src="piatti/francese1.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Space Jam</h5>
-            <p class="card-text">Fa girare la testa</p>
-            <a href="#" class="btn btn-primary">Scopri di più</a>
+            <h5 class="card-title">Ratautille</h5>
+            <p class="card-text">sdgtgwger</p>
           </div>
         </div>
       </div>
-      <div class="col">
-        <div class="card w-100">
-          <img src="images/giostra-2.jpg" class="card-img-top" alt="giostra-2">
-          <div class="card-body">
-            <h5 class="card-title">Girandola</h5>
-            <p class="card-text">Giostra che gira</p>
-            <a href="#" class="btn btn-primary">Scopri di più</a>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card w-100">
-          <img src="images/giostra-3.jpg" class="card-img-top" alt="giostra-3">
-          <div class="card-body">
-            <h5 class="card-title">Trallalero</h5>
-            <p class="card-text">Giorstra bella</p>
-            <a href="#" class="btn btn-primary">Scopri di più</a>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card w-100">
-          <img src="images/giostra-4.jpg" class="card-img-top" alt="giostra-4">
-          <div class="card-body">
-            <h5 class="card-title">Space Ball</h5>
-            <p class="card-text">Balle spaziali</p>
-            <a href="#" class="btn btn-primary">Scopri di più</a>
-          </div>
-        </div>
-      </div>
-    </div>
-</div>
 
 <!--footer-->
 
