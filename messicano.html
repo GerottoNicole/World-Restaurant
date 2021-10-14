@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <title>Ristorante messicano</title>
+    <style>    
+      body{
+        font-size: 25px;
+        background-color: rgb(255, 255, 255);
+        color:rgb(0, 0, 0);}
+       
+        h1{
+         font-size: 50px;
+         color: black;
+        }
+        p {
+            font-size: 15px;
+        }
+    </style>
+
+  </head>
+  <body>
+  <!-- navbar col menù-->
+<div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="home.html">World Restaurant</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"  href="francese.html">Francese</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"  href="indiano.html">Indiano</a>
+          </li>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="messicano.html">Messicano</a>
+        </li>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="giapponese.html">Giapponese</a>
+    </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+
+  <!-- slider di foto -->
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/" class="d-block w-100" alt="100">
+      </div>
+      <div class="carousel-item">
+        <img src="images/" class="d-block w-100" alt="100">
+      </div>
+      <div class="carousel-item">
+        <img src="images/" class="d-block w-100" alt="100">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!--testo di benvenuto-->
+  <div class="container">
+    <h1>Ristornate Messicano</h1>
+    <p>Viaggia</p>
+</div>
+
+  <!--card piatti-->
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="piatti/messicano1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Gorditas</h5>
+            <p class="card-text">Se non parli lo spagnolo devi sapere che “gordita” significa “cicciotta”; potrai quindi immaginare che le gorditas non sono esattamente il cibo più dietetico e sano della terra, e potrai anche immaginare che sono deliziose. Queste pagnotte di farina di mais somigliano alle arepa colombiane/venezuelane e vengono riempite con carne formaggio e altri ingredienti.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card w-100">
+          <img src="piatti/messicano2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Enchiladas</h5>
+            <p class="card-text">
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card w-100">
+          <img src="piatti/messicano3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"></h5>
+            <p class="card-text">
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card w-100">
+          <img src="piatti/messicano4.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"></h5>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+  
+
+<!--footer-->
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+  </body>
+</html>
