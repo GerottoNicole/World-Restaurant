@@ -4,6 +4,10 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
@@ -12,16 +16,86 @@
 
     
     <style> 
-       
-      body{
+    .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+     body{
         font-size: 25px;
         background-color: rgb(255, 255, 255);
-        color:white;}
+        color:rgb(0, 0, 0);}
        
         h1{
          font-size: 50px;
-         color: rgb(0, 0, 0);
+         color: black;
         }
+        
+        h4{
+          text-align: center;
+          font-size: 30px;
+        }
+
+        .footer-basic {
+  padding:40px 0;
+  background-color:#ffffff;
+  color:#4b4c4d;
+}
+
+.footer-basic ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+
+.footer-basic li {
+  padding:0 10px;
+}
+
+.footer-basic ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity:1;
+}
+
+.footer-basic .social {
+  text-align:center;
+  padding-bottom:25px;
+}
+
+.footer-basic .social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid #ccc;
+  margin:0 8px;
+  color:inherit;
+  opacity:0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity:0.9;
+}
+
+.footer-basic .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:#aaa;
+  margin-bottom:0;
+}
     </style>
   </head>
   <body>
@@ -74,28 +148,28 @@
         <img src="images/francese2.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
           <h5>Ristorante Francese</h5>
-          <p>Some representative placeholder content for the first slide.</p>
+          <p></p>
         </div>
       </div>
       <div class="carousel-item">
         <img src="images/indiano3.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
           <h5>Ristorante Indiano</h5>
-          <p>Some representative placeholder content for the second slide.</p>
+          <p></p>
         </div>
       </div>
       <div class="carousel-item">
         <img src="images/messicano3.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
           <h5>Ristorante Messicano</h5>
-          <p>Some representative placeholder content for the third slide.</p>
+          <p></p>
         </div>
       </div>
       <div class="carousel-item">
         <img src="images/giapponese3.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-          <h5>Ristornate Giapponese</h5>
-          <p>saf</p>
+          <h5>Ristorante Giapponese</h5>
+          <p></p>
         </div>
       </div>
     </div>
@@ -112,20 +186,38 @@
   <!--testo di benvenuto-->
   <div class="container">
     <h1>World Restaurant</h1>
-    <p>Regalati un'esperienza multietnica</p>
+    <h4>- Piatti del mese -</h4>
+    <p></p>
 </div>
 
-<!--card piatti-->
-<div class="card" style="width: 18rem;">
-    <img src="piatti/francese1.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">nome piatto</h5>
-      <p class="card-text">descrizone piatto</p>
-      <a href="francese.html" class="btn btn-primary">Go somewhere</a>
-    </div>
-  </div>
+<!--piatti-->
+
+  <img src="piatti/francese4.jpg" alt="..." class="center">
+  <h4>Escargots de Bourgogne</h4>
+  <p></p>
+  <img src="piatti/indiano3.jpg" alt="..." class="center">
+  <h4>Thali</h4>
+  <p></p>
+  <img src="piatti/messicano3.jpg" alt="..." class="center">
+  <h4>Talames</h4>
+  <p></p>
+  <img src="piatti/giapponese1.jpg" alt="..." class="center">
+  <h4>Sushi</h4>
 
 <!--footer-->
+<div class="footer-basic">
+  <footer>
+      <div class="social"><a href="https://www.instagram.com/"><i class="icon ion-social-instagram"></i></a><a href="https://www.snapchat.com/"><i class="icon ion-social-snapchat"></i></a><a href="https://twitter.com/"><i class="icon ion-social-twitter"></i></a><a href="https://www.facebook.com/"><i class="icon ion-social-facebook"></i></a></div>
+      <ul class="list-inline">
+          <li class="list-inline-item"><a href="#">Home</a></li>
+          <li class="list-inline-item"><a href="#">Services</a></li>
+          <li class="list-inline-item"><a href="#">About</a></li>
+          <li class="list-inline-item"><a href="#">Terms</a></li>
+          <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+      </ul>
+      <p class="copyright">Gerotto Nicole © 2021</p>
+  </footer>
+</div>
 
 
     <!-- Optional JavaScript; choose one of the two! -->
